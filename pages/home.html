@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Khaled</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="icon" href="../assets/images/about.jpg" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="../assets/images/logo.jpg" alt="logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full-Stack Web Developer</p>
+          <h1>Hi, I'm <span>Mohamed</span><br />Khaled From Egypt</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-----about----->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="../assets/images/my-profile-photo.jpg" alt="My image" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-description">
+              I am a highly motivated Full Stack Web Developer with a passion
+              for building scalable and efficient web applications. With a
+              strong foundation in both frontend and backend development, I
+              specialize in creating seamless user experiences and robust system
+              architectures. I am always eager to learn and stay updated with
+              modern web technologies to deliver innovative solutions. My
+              problem-solving skills and attention to detail enable me to tackle
+              complex development challenges effectively. I am now seeking an
+              opportunity to apply my expertise and contribute to a dynamic
+              development team.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('certifications')">
+                Certifications
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Building and maintaining
+                  both frontend and backend systems.
+                </li>
+                <li>
+                  <span>Data Engineering</span><br />Designing and building data
+                  pipelines and infrastructure.
+                </li>
+                <li>
+                  <span>Data Analysis</span><br />Analyzing data to extract
+                  insights for decision-making.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Freelance Web Developer</span><br />2024-current</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Faculty of Engineering, Alexandria university.</span
+                  ><br />November 2019
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certifications">
+              <ul>
+                <li>
+                  <span>AWS Certified Cloud Practitioner (Foundational)</span
+                  ><br />November 2024
+                </li>
+                <li>
+                  <span>Machine Learning Engineer Nanodegree-Udacity</span
+                  ><br />October 2021
+                </li>
+                <li>
+                  <span>Advanced Data Analysis-Udacity</span><br />July 2021
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------portfolio------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="../assets/images/weather-app.png" alt="weather-app" />
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>
+                A weather app provides real-time and forecasted weather
+                information, including temperature, wind speed and humidity,
+                based on the user's location or selected cities.
+              </p>
+              <a
+                href="https://weather-dashboard-application-a4b109e91786.herokuapp.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="../assets/images/amazon-app.webp" alt="weather-app" />
+            <div class="layer">
+              <h3>Amazon App</h3>
+              <p>
+                An e-commerce platform that enables users to browse, search, and
+                purchase a vast range of products and manage orders.
+              </p>
+              <a
+                href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjaoJ3l1r6LAxUtPAYAHQQBH5wYABAAGgJ3cw&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiAqrG9BhAVEiwAaPu5zszy0TcXYfZSxkm4ktk30qxWsJe36nE4QF5dqa48pAbsIjVM-AcoWxoC6NUQAvD_BwE&ohost=www.google.com&cid=CAESVuD2VBg6yCdtZb7Yg7Mwm9Vj7OjSEUILKuY3gCndwnMJ66-52Gsp7ATTpDY4Me3eBHT19xzLsbvJRh9IILTfE9xASieTC_OqP99z7Cn0-rrNL3DS4kWq&sig=AOD64_2s2_hxl7mBK62kF3JXWQpxQNEmVQ&q&adurl&ved=2ahUKEwiXlJfl1r6LAxVw-QIHHTMFGncQ0Qx6BAgIEAE"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------contact----------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> jb.mlmastery@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 01097514846</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/mohamed-khaled-632526207/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/mkgmels"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="../assets/cv/cv.pdf" class="cv-btn" download
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------copyright------->
+    <div id="copyright">
+      <p>© 2025 Mohamed Khaled. All rights reserved.</p>
+
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6f01994e07.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
